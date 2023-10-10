@@ -31,8 +31,8 @@ class MainActivity : AppCompatActivity() {
     fun getQuote(view: View) {
         val thread = Thread {
 
-          //  val url = URL("https://stand-by-me.herokuapp.com/api/v1/characters")
-              val url = URL("https://ron-swanson-quotes.herokuapp.com/v2/quotes ")
+           val url = URL("https://stand-by-me.herokuapp.com/api/v1/characters")
+             // val url = URL("https://ron-swanson-quotes.herokuapp.com/v2/quotes ")
 
             try {
                 val connection = url.openConnection()
